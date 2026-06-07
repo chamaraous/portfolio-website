@@ -2,80 +2,665 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nilantha Warnakulasuriya | Portfolio</title>
+
+    <meta name="description" content="Professional portfolio of Nilantha Warnakulasuriya">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nilantha | Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Nilantha Warnakulasuriya | Portfolio</title>
+
 </head>
 
 <body>
 
-    <header>
-        <h1>Nilantha Warnakulasuriya</h1>
-        <p>Data Science | SAP Consultant | Business Analytics</p>
-    </header>
-
+    <!-- ── NAV ── -->
     <nav>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
+        <div class="nav-logo">NILANTHA</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects-section">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="dark-btn">🌙</div>
     </nav>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>
-            Data-driven professional with 15+ years of experience in Data Science, SAP Functional Consulting, Business Analytics, Industrial Engineering, and Operations Optimization. Skilled in developing machine learning models, predictive analytics, data visualizations, and SAP-driven business solutions. Strong background in supply chain, sales forecasting, KPI analysis, and automation.
-Currently expanding advanced expertise in Python, ML, data engineering, and end-to-end analytics solutions for business decision-making.
+    <!-- =========================================
+         HERO SECTION
+    ========================================== -->
+    <!-- ── HERO ── -->
+    <section class="hero">
+        <img src="images/image2.jpg" class="hero-bg-cover" alt="Nilantha Warnakulasuriya Portfolio Background">
 
-        </p>
-    </section>
+        <div class="container hero-overlay">
+            <div class="hero-buttons">
+                <a href="path-to-your-cv.pdf" class="btn btn-download" download>
+                    Download CV
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                        <polyline points="7 10 12 15 17 10"></polyline>
+                        <line x1="12" y1="15" x2="12" y2="3"></line>
+                    </svg>
+                </a>
 
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>Python (Pandas, NumPy, Scikit-learn, Matplotlib)</li>
-            <li>Machine Learning Models</li>
-            <li>SAP Functional Consulting</li>
-            <li>Business Analytics & KPIs</li>
-            <li>SQL & Data Cleaning</li>
-            <li>Excel Automation</li>
-        </ul>
-    </section>
-
-    <section id="projects">
-        <h2>Projects</h2>
-
-        <div class="project-card">
-            <h3>Sales Forecasting Model</h3>
-            <p>Predicts future sales using time-series ML algorithms.</p>
+                <a href="#contact" class="btn btn-contact">
+                    Contact Me
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg>
+                </a>
+            </div>
         </div>
-
-        <div class="project-card">
-            <h3>Customer Segmentation (K-means)</h3>
-            <p>Identifies customer groups using clustering techniques.</p>
-        </div>
-
-        <div class="project-card">
-            <h3>Inventory Optimization with ML</h3>
-            <p>Uses predictive analytics to reduce stock-outs and improve efficiency.</p>
-        </div>
-
     </section>
 
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Email: <strong>nilanthaous@hotmail.com</strong></p>
-        <p>Phone: <strong>+1 647 928 7651</strong></p>
-        <p>GitHub: <a href="#" target="_blank">Your GitHub Link</a></p>
-        <p>LinkedIn: <a href="#" target="_blank">Your LinkedIn Link</a></p>
+    <!-- =========================================
+         About 
+    ========================================== -->
+
+    <section id="about" class="section hidden-left">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <p style="font-size:13px;color:#a78bfa;letter-spacing:1px;">WHO I AM</p>
+            <p class="about-text">I am a highly motivated SAP and Data Science professional with more than 15 years of
+                experience in apparel manufacturing, operations management, SAP consulting, industrial engineering, and
+                enterprise systems.</p>
+            <p style="font-size:13px;color:#a78bfa;margin-bottom:40px;letter-spacing:1px;" p>
+            <p class="about-text">I am passionate about leveraging data and technology to drive business insights,
+                optimize processes, and
+                solve complex problems. With a strong background in SAP MM, PP, and PM modules,
+                currently expanding my expertise through Machine Learning and Data Science
+                capstone projects,
+                focusing on data-driven decision-making, predictive analytics, and modern business solutions.</p>
+            <div class="about-grid">
+                <div class="about-card">
+                    <h3>Location</h3>
+                    <p>Lac La Biche, Alberta, Canada</p>
+                </div>
+                <div class="about-card">
+                    <h3>Email</h3>
+                    <p>nilanthaous@hotmail.com</p>
+                </div>
+                <div class="about-card">
+                    <h3>Languages</h3>
+                    <p>English / Sinhala</p>
+                </div>
+                <div class="about-card">
+                    <h3>Open To</h3>
+                    <p>Remote &amp; Visa Sponsored Roles</p>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <footer>
-        <p>© 2025 Nilantha. All Rights Reserved.</p>
+    <!-- ── SKILLS ── -->
+    <section id="skills" class="section dark-section hidden-right">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <p style="font-size:13px;color:#a78bfa;margin-bottom:40px;letter-spacing:1px;">WHAT I WORK WITH</p>
+            <div class="skills-grid">
+                <div class="card">
+                    <h3>Data Science</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>Pandas &amp; NumPy</li>
+                        <li>Machine Learning</li>
+                        <li>EDA &amp; Visualization</li>
+                        <li>Forecasting Models</li>
+                        <li>SQL &amp; Data Analytics</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>SAP Expertise</h3>
+                    <ul>
+                        <li>SAP MM / PP / PM</li>
+                        <li>Master Data Management</li>
+                        <li>UAT Testing</li>
+                        <li>SAP Migration</li>
+                        <li>Cutover Activities</li>
+                        <li>Post Go-Live Support</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Tools &amp; Platforms</h3>
+                    <ul>
+                        <li>Power BI</li>
+                        <li>Tableau</li>
+                        <li>Git &amp; GitHub</li>
+                        <li>Jupyter Notebook</li>
+                        <li>VS Code</li>
+                        <li>Google Colab</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =========================================
+         Project 
+    ========================================== -->
+
+    <section id="projects-section" class="section hidden-right">
+        <div class="container">
+            <h2 class="section-title" style="display:inline-block;">Projects</h2>
+            <p style="font-size:13px;color:#a78bfa;margin-top:22px;margin-bottom:40px;letter-spacing:1px;">WHAT I'VE
+                BUILT</p>
+            <div class="carousel-wrapper">
+                <button class="carousel-btn" id="prevBtn">❮</button>
+                <div class="carousel" id="carousel">
+                    <div class="proj-card">
+                        <h3>Sales Forecasting</h3>
+                        <p>ARIMA &amp; Prophet models for time series prediction and business planning.</p><span>Python
+                            • Pandas</span>
+                        <div class="project-links">
+
+                            <!-- GITHUB LINK -->
+                            <a href="https://github.com/yourusername/customer-segmentation" target="_blank"
+                                class="github-link">
+                                View Project
+                            </a>
+                        </div>
+                    </div>
+                    <div class="proj-card">
+                        <h3>Customer Segmentation</h3>
+                        <p>K-Means clustering for targeted marketing and customer analytics.</p><span>Python • ML</span>
+                        <!-- BUTTON AREA -->
+                        <div class="project-links">
+
+                            <!-- GITHUB LINK -->
+                            <a href="https://github.com/yourusername/customer-segmentation" target="_blank"
+                                class="github-link">
+                                View Project
+                            </a>
+                        </div>
+                    </div>
+                    <div class="proj-card">
+                        <h3>Inventory Optimization</h3>
+                        <p>Stock prediction model with interactive Power BI dashboard Visualization.</p><span>SQL •
+                            Power
+                            BI</span>
+                        <div class="project-links">
+
+                            <!-- GITHUB LINK -->
+                            <a href="https://github.com/yourusername/customer-segmentation" target="_blank"
+                                class="github-link">
+                                View Project
+                            </a>
+                        </div>
+                    </div>
+                    <div class="proj-card">
+                        <h3>COVID Analytics</h3>
+                        <p>Comprehensive data analysis and visualization dashboard project.</p><span>Python •
+                            Data</span>
+                        <div class="project-links">
+
+                            <!-- GITHUB LINK -->
+                            <a href="https://github.com/yourusername/customer-segmentation" target="_blank"
+                                class="github-link">
+                                View Project
+                            </a>
+                        </div>
+                    </div>
+                    <div class="proj-card">
+                        <h3>SAP Implementation</h3>
+                        <p>End-to-end SAP implementation project for a manufacturing client.</p><span>SAP •
+                            Consulting</span>
+                        <div class="project-links">
+
+                            <!-- GITHUB LINK -->
+                            <a href="https://github.com/yourusername/customer-segmentation" target="_blank"
+                                class="github-link">
+                                View Project
+                            </a>
+                        </div>
+                    </div>
+                    <div class="proj-card">
+                        <h3>SAP Cutover</h3>
+                        <p>Data migration and cutover activities for SAP systems.</p><span>SAP •
+                            Consulting</span>
+                        <div class="project-links">
+
+                            <!-- GITHUB LINK -->
+                            <a href="https://github.com/yourusername/customer-segmentation" target="_blank"
+                                class="github-link">
+                                View Project
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-btn" id="nextBtn">❯</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- =========================================
+         Experiance 
+    ========================================== -->
+
+    <section id="experience" class="section dark-section hidden-left">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <p style="font-size:13px;color:#a78bfa;margin-bottom:40px;letter-spacing:1px;">MY CAREER JOURNEY</p>
+            <div class="timeline">
+
+                <div class="timeline-item">
+                    <h3>Co-Founder </h3>
+                    <h4>Girlidh Fashion Hub</h4>
+                    <span class="period">Since – 2019</span>
+                    <ul>
+                        <li><strong>Entrepreneurship &amp; Business Development:</strong> Co-founded and currently
+                            manage a successful fashion retail business, overseeing all aspects of operations, sales,
+                            and customer engagement.</li>
+                        <li><strong>Operational Leadership:</strong> Lead day-to-day business operations, including
+                            inventory management, supplier coordination, and customer service excellence.</li>
+                        <li><strong>Sales &amp; Marketing:</strong> Developed and executed sales strategies, promotional
+                            campaigns, and social media marketing initiatives to drive brand awareness and revenue
+                            growth.</li>
+                        <li><strong>Financial Management:</strong> Handle budgeting, financial planning, and cash flow
+                            management to ensure sustainable business growth.</li>
+                        <li><strong>Customer Relationship Management:</strong> Foster strong relationships with
+                            customers,
+                            suppliers, and partners to enhance customer satisfaction and loyalty.</li>
+                    </ul>
+                </div>
+
+                <div class="timeline-item">
+                    <h3>Senior Business Application Consultant (SAP PP/PM)</h3>
+                    <h4>MAS Active Division</h4>
+                    <span class="period">2016 – 2022</span>
+                    <ul>
+
+                        <li><strong>Module Expertise &amp; Optimization:</strong> Supported day-to-day business
+                            operations and enterprise process optimization across SAP MM, PP, and PM modules.</li>
+                        <li><strong>Requirements Gathering &amp; Design:</strong> Gathered complex business requirements
+                            and successfully translated them into clear functional specifications for SAP system
+                            enhancements and full-cycle implementations.</li>
+                        <li><strong>Master Data Management:</strong> Managed and maintained critical SAP master data,
+                            including materials, BOMs, routings, work centers, vendors, and maintenance records.</li>
+                        <li><strong>Lifecycle &amp; UAT Support:</strong> Supported comprehensive SAP implementations,
+                            configuration, User Acceptance Testing (UAT), cutover activities, and post-go-live hypercare
+                            support.</li>
+                        <li><strong>Cross-Functional Collaboration:</strong> Collaborated seamlessly with
+                            cross-functional teams, including production, procurement, warehouse, maintenance, finance,
+                            and IT departments.</li>
+                        <li><strong>Data Migration &amp; Integration:</strong> Conducted end-to-end data migration, data
+                            validation, and system integration activities during high-impact SAP projects.</li>
+                        <li><strong>Reporting &amp; Analytics:</strong> Developed customized reports, interactive
+                            dashboards, and analytical insights to drive management decision-making.</li>
+                        <li><strong>Training &amp; Documentation:</strong> Provided hands-on end-user training, rapid
+                            troubleshooting support, and detailed system documentation for SAP users and key business
+                            stakeholders.</li>
+                        <li><strong>Continuous Process Improvement:</strong> Applied Lean and process improvement
+                            methodologies to streamline workflows, enhance floor productivity, and reduce operational
+                            inefficiencies.</li>
+
+                    </ul>
+                </div>
+
+                <div class="timeline-item">
+                    <h3>Executive Operations</h3>
+                    <h4>MAS Active Sleek Line Division</h4>
+                    <span class="period">2008 – 2016</span>
+                    <ul>
+
+                        <li><strong>Data-Driven Productivity:</strong> Analyzed complex operational data to identify
+                            bottlenecks, improve floor productivity, and significantly reduce material waste.</li>
+                        <li><strong>LEAN Practice Implementation:</strong> Implemented continuous LEAN methodologies and
+                            practices to eliminate inefficiencies and enhance end-to-end workflow efficiency.</li>
+                        <li><strong>Cross-Functional Workflow Optimization:</strong> Collaborated closely with
+                            cross-functional teams to streamline production processes and optimize inventory management
+                            strategies.</li>
+                        <li><strong>KPI Development &amp; Performance Tracking:</strong> Developed, monitored, and
+                            analyzed key performance indicators (KPIs) to track operational metrics and drive continuous
+                            improvement initiatives.</li>
+                        <li><strong>Large-Scale Resource Planning:</strong> Managed production KPIs and strategic
+                            resource planning for large-scale operations involving teams of 500+ employees.</li>
+                        <li><strong>SAP Integration Support:</strong> Supported seamless SAP implementation and system
+                            integration activities directly within the operations department to improve data visibility.
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="timeline-item">
+                    <h3>Executive Production</h3>
+                    <h4>Courtaulds Clothing Pvt Ltd</h4>
+                    <span class="period">2005 – 2008</span>
+
+                    <ul>
+                        <li><strong>Production Planning &amp; Execution:</strong> Managed daily manufacturing operations
+                            for high-volume apparel orders, ensuring 100% adherence to strict production schedules and
+                            delivery timelines.</li>
+                        <li><strong>Line Efficiency &amp; Optimization:</strong> Collaborated closely with the
+                            Industrial Engineering (IE) team to implement strategic line balancing, successfully
+                            reducing bottlenecks and boosting overall line efficiency.</li>
+                        <li><strong>Quality &amp; Defect Reduction:</strong> Supervised sewing floor quality metrics,
+                            implementing immediate corrective actions to minimize DHU (Defects per Hundred Units) and
+                            strictly maintain buyer-specific AQL standards.</li>
+                        <li><strong>Lean Manufacturing:</strong> Driven operational excellence by applying Lean
+                            methodologies (5S, Kaizen, and Kanban) to minimize material waste, cut down changeover
+                            times, and reduce floor downtime.</li>
+                        <li><strong>Workforce Leadership:</strong> Led, mentored, and managed a floor team of
+                            supervisors and operators, fostering a highly productive work environment and optimizing
+                            labor capacity utilization.</li>
+                        <li><strong>Cut-to-Ship Coordination:</strong> Synchronized operations across cross-functional
+                            departments—including Cutting, Quality, Merchandising, and Packing—to ensure a seamless,
+                            bottleneck-free cut-to-ship workflow.</li>
+                        <li><strong>Cost Control &amp; Material Management:</strong> Monitored fabric and trim
+                            consumption against standard allowances to control variance, significantly minimizing raw
+                            material wastage during production runs.</li>
+
+                    </ul>
+                </div>
+
+                <div class="timeline-item">
+                    <h3>Management Trainee</h3>
+                    <h4>Star Garments Pvt Ltd</h4>
+                    <span class="period">2003 – 2005</span>
+                    <ul>
+                        <li><strong>Apparel Manufacturing Foundation:</strong> Rotated through core production
+                            departments to gain a comprehensive, hands-on understanding of garment construction,
+                            cutting, sewing, and finishing processes.</li>
+                        <li><strong>Quality Control &amp; Assurance:</strong> Assisted quality management teams in
+                            conducting floor inspections, tracking defects, and ensuring strict adherence to
+                            export-level buyer quality standards.</li>
+                        <li><strong>Production Planning &amp; Scheduling:</strong> Supported the planning department
+                            with material tracking, line-loading schedules, and capacity coordination to ensure timely
+                            order execution.</li>
+                        <li><strong>Operational Data Analysis:</strong> Monitored and analyzed daily factory floor
+                            production metrics to identify bottlenecks and assist senior leadership with resource
+                            optimization.</li>
+                        <li><strong>Cross-Functional Coordination:</strong> Collaborated across merchandising, cutting,
+                            and sewing teams to maintain seamless material flow and streamline communication channels.
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- =========================================
+         Education
+    ========================================== -->
+
+    <section id="education" class="section hidden-right">
+        <div class="container">
+            <h2 class="section-title">Education &amp; Qualifications</h2>
+            <p style="font: size 15px;color:#a78bfa;margin-bottom:40px;letter-spacing:1px;padding-top: 20px;">ACADEMIC
+                &amp; PROFESSIONAL
+            </p>
+            <div class="education-wrapper">
+                <div class="education-card">
+                    <h3>🎓 Higher Education</h3>
+                    <div class="edu-item">
+                        <h4>Master of Data Science</h4>
+                        <p>Institute of Career Amend, USA</p>
+                        <span>2025– 2026</span>
+
+                        <!-- CERTIFICATE BUTTON -->
+                        <div class="project-links">
+
+                            <a href="certificate.pdf" target="_blank" class="cert-btn">
+                                View Certificate
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="edu-item">
+                        <h4>Postgraduate Diploma in Industrial Studies</h4>
+                        <p>The Open University of Nawala, Sri Lanka</p>
+                        <span>2017 – 2019</span>
+                        <!-- CERTIFICATE BUTTON -->
+                        <div class="project-links">
+
+                            <a href="certificate.pdf" target="_blank" class="cert-btn">
+                                View Certificate
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="edu-item">
+                        <h4>Bachelor of Industrial Studies</h4>
+                        <p>The Open University of Nawala, Sri Lanka</p>
+                        <span>2004 – 2009</span>
+                        <!-- CERTIFICATE BUTTON -->
+                        <div class="project-links">
+
+                            <a href="https://drive.google.com/file/d/1ZhnLApGMJ7bUDtsMDmqmx8zT3VhR7oOU/view?usp=sharing"
+                                target="_blank" class="cert-btn">
+                                View Certificate
+                            </a>
+                        </div>
+                    </div>
+                    <div class="edu-item">
+                        <h4>Diploma in Industrial Studies</h4>
+                        <p>The Open University of Nawala, Sri Lanka</p>
+                        <span>2001 – 2003</span>
+                        <!-- CERTIFICATE BUTTON -->
+                        <div class="project-links">
+
+                            <a href="https://drive.google.com/file/d/1l7nxl87yWKxD2cR-KuLZyt_cow2W03JZ/view?usp=sharing"
+                                target="_blank" class="cert-btn">
+                                View Certificate
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="education-card">
+                    <h3>💼 Professional Certifications</h3>
+                    <div class="edu-item">
+                        <h4>Data Science & machine Learning</h4>
+                        <p>CareerEra, USA</p>
+                        <span>2024</span>
+                        <!-- CERTIFICATE BUTTON -->
+                        <div class="project-links">
+
+                            <a href="https://awards.careerera.com/Q0FSMjAyNC1XUzEwNDAwNS0xMzkwMjE1LzE,"
+                                class="cert-btn">
+                                View Certificate
+                            </a>
+                        </div>
+                    </div>
+                    <div class="edu-item">
+                        <h4>ML Capstone Project Certificate</h4>
+                        <p>ML,Data Visualization &amp; BI</p>
+                        <span>2024</span>
+                        <!-- CERTIFICATE BUTTON -->
+                        <div class="project-links">
+
+                            <a href="https://awards.careerera.com/Q0FSMjAyNC1XUzEwNDAwNS0xMzkwMjE1LzI," target="_blank"
+                                class="cert-btn">
+                                View Certificate
+                            </a>
+                        </div>
+                    </div>
+                    <div class="edu-item">
+                        <h4>Lean Certification</h4>
+                        <p>Yellow belt &amp; Green belt</p>
+                        <span>2019</span>
+                        <!-- CERTIFICATE BUTTON -->
+                        <div class="project-links">
+
+                            <a href="certificate.pdf" target="_blank" class="cert-btn">
+                                View Certificate
+                            </a>
+                        </div>
+                    </div>
+                    <div class="edu-item">
+                        <h4>GSD Certification</h4>
+                        <p>General Sewing Data</p>
+                        <span>2018</span>
+                        <!-- CERTIFICATE BUTTON -->
+                        <div class="project-links">
+
+                            <a href="certificate.pdf" target="_blank" class="cert-btn">
+                                View Certificate
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+        <div class="container">
+            <p style="font-size:15px;color:#a78bfa;margin-bottom:40px;letter-spacing:1px; padding-top: 40px;">HEALTH
+                CARE &amp; VOCATIONAL QUALIFICATIONS
+
+            </p>
+            <div class="education-wrapper">
+                <div class="education-card">
+                    <h3>🎓 Higher Education</h3>
+                    <div class="edu-item">
+                        <h4>Professional Diploma In Caregiving</h4>
+                        <p>Surado Campus, SriLanka</p>
+                        <span>2022</span>
+                        <!-- CERTIFICATE BUTTON -->
+                        <div class="project-links">
+
+                            <a href="https://drive.google.com/file/d/1dLQCmbHZyB5ZKeQf4eUaIAKoM4rDL36N/view?usp=sharing"
+                                target="_blank" class="cert-btn">
+                                View Certificate
+                            </a>
+                        </div>
+                    </div>
+                    <div class="edu-item">
+                        <h4>Professional Diploma in Health Care</h4>
+                        <p>Lincoln University College, Malesiya</p>
+                        <span>2021</span>
+                        <!-- CERTIFICATE BUTTON -->
+                        <div class="project-links">
+
+                            <a href="https://drive.google.com/file/d/16Of-pQGocT-DC5WEhtLqd3R5e4YqBNw0/view?usp=sharing"
+                                target="_blank" class="cert-btn">
+                                View Certificate
+                            </a>
+                        </div>
+                    </div>
+                    <div class="edu-item">
+                        <h4>Advanced Diploma in Geriatric Care</h4>
+                        <p>On Sky Global College, USA</p>
+                        <span>2018</span>
+                        <!-- CERTIFICATE BUTTON -->
+                        <div class="project-links">
+
+                            <a href="https://drive.google.com/file/d/1hyrU3tKJnLb9LIfRxqDhIB2_Co7Umyvo/view?usp=sharing"
+                                target="_blank" class="cert-btn">
+                                View Certificate
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="education-card">
+                    <h3>❤️ Healthcare Certifications</h3>
+                    <div class="edu-item">
+                        <h4>CPR &amp; First Aid - UK Health & Safety Reg. 1981</h4>
+                        <p>Emergency Response</p>
+                        <span>2021</span>
+                        <!-- CERTIFICATE BUTTON -->
+                        <div class="project-links">
+
+                            <a href="certificate.pdf" target="_blank" class="cert-btn">
+                                View Certificate
+                            </a>
+                        </div>
+                    </div>
+                    <div class="edu-item">
+                        <h4>Hydrotherapy</h4>
+                        <p>Therapeutic Water Treatment</p>
+                        <span>2020</span>
+                        <!-- CERTIFICATE BUTTON -->
+                        <div class="project-links">
+
+                            <a href="certificate.pdf" target="_blank" class="cert-btn">
+                                View Certificate
+                            </a>
+                        </div>
+                    </div>
+                    <div class="edu-item">
+                        <h4>Caregiver Training &amp; CPD: Rehabilitation in Elderly
+                            Care (8 CPD)</h4>
+                        <p>Patient Care Skills</p>
+                        <span>2019</span>
+                        <!-- CERTIFICATE BUTTON -->
+                        <div class="project-links">
+
+                            <a href="certificate.pdf" target="_blank" class="cert-btn">
+                                View Certificate
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =========================================
+         contact
+    ========================================== -->
+
+    <section id="contact" class="section dark-section">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <p style="font-size:13px;color:#a78bfa;margin-bottom:40px;letter-spacing:1px;">GET IN TOUCH</p>
+            <div class="contact-box">
+                <p><span class="contact-label">Email</span> nilanthaous@hotmail.com</p>
+                <p><span class="contact-label">Phone</span> +1 647-928-7651</p>
+                <p><span class="contact-label">LinkedIn</span> linkedin.com/in/nilantha-warnakulasuriya-40310173</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── FOOTER ── -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025 Nilantha Warnakulasuriya | Portfolio Website</p>
+        </div>
     </footer>
 
-</body>
+    <script>
+        // Carousel Functionality
+        const carousel = document.getElementById('carousel');
+        const prevBtn = document.getElementById('prevBtn');
+        const nextBtn = document.getElementById('nextBtn');
 
+        prevBtn.addEventListener('click', () => {
+            carousel.scrollBy({ left: -300, behavior: 'smooth' });
+        });
+
+        nextBtn.addEventListener('click', () => {
+            carousel.scrollBy({ left: 300, behavior: 'smooth' });
+        });
+
+        // Scroll Animation
+        const sections = document.querySelectorAll('.section');
+        const options = { threshold: 0.1 };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, options);
+
+        sections.forEach(section => {
+            observer.observe(section);
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
 
 </html>
